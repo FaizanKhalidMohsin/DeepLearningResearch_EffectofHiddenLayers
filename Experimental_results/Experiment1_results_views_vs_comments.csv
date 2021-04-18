@@ -1,0 +1,44 @@
+Model Structure,,,,,,,,,,,,For loop
+"def model_results(model_num, optimizer = 'adam', loss_fn = 'mse', activation_fn = 'relu', epochs = 100, batch_size =32, ",,,,,,,,,,,,# model_num
+"                  num_hiddenlayer = 1,  neurons_in_inputlayer = 5, neurons_in_hiddenlayer = 2, ",,,,,,,,,,,,"optimizer_list = [""sgd"", ""adam"", ""nadam"", ""adamax""]"
+"                  num_dropout_layers = 0, verbose = 0):  ",,,,,,,,,,,,"loss_fn_list = [""mse"", ""mape"", ""mae"", ""mlse""]"
+    ,,,,,,,,,,,,"activation_fn_list = [""relu"", ""selu"", ""exponential""]"
+    model = Sequential(),,,,,,,,,,,,"epochs_list = [1, 10, 20, 30, 100]"
+"    model.add(Dense(neurons_in_inputlayer, input_dim = 1, activation = activation_fn))",,,,,,,,,,,,"batch_size_list = [1, 10, 32, 50, 100, 150]"
+"    #model.add(Dropout(rate = 0.1,seed=100))",,,,,,,,,,,,num_hiddenlayer_list = [1]
+"    model.add(Dense(neurons_in_hiddenlayer,activation = activation_fn))",,,,,,,,,,,,"neurons_in_hiddenlayer_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+"    model.compile(loss=loss_fn, optimizer=optimizer,",,,,,,,,,,,,"neurons_in_inputlayer_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+"    metrics=['mse', 'mae', 'mape', CosineSimilarity(), RootMeanSquaredError() , MeanSquaredLogarithmicError() ])",,,,,,,,,,,,num_dropout_layers_list = [0]
+,,,,,,,,,,,,
+    # Train the model and make predictions,,,,,,,,,,,,# Total number of parameters: 
+"    model.fit(X_train, y_train, epochs=epochs, batch_size=batch_size, verbose = verbose)",,,,,,,,,,,,number_parameters = len(optimizer_list) * len(loss_fn_list) * len(activation_fn_list) * len(epochs_list) * len(batch_size_list) * len(num_hiddenlayer_list) * len(neurons_in_inputlayer_list) * len(num_dropout_layers_list) 
+,,,,,,,,,,,, 
+    # Evaluate the model,,,,,,,,,,,,"print(""number_parameters :"", number_parameters)"
+"    score = model.evaluate(X_test, y_test, verbose = verbose)",,,,,,,,,,,, 
+    ,,,,,,,,,,,,i = 0
+    # Make predictions from the trained model,,,,,,,,,,,,for opt in optimizer_list:
+    #predictions = model.predict(X_test),,,,,,,,,,,,    for loss in loss_fn_list:
+    ,,,,,,,,,,,,        for activation in activation_fn_list:
+    # Store results,,,,,,,,,,,,            for epochs in epochs_list:
+"    dict = {'model_num':[model_num],",,,,,,,,,,,,                for batch in batch_size_list:
+"        'optimizer':[ optimizer],",,,,,,,,,,,,                    for neurons_in_hiddenlayer in neurons_in_hiddenlayer_list:
+"        'loss_fn':[loss_fn],",,,,,,,,,,,,                        for neurons_in_inputlayer in neurons_in_inputlayer_list:
+"        'activation_fn':[activation_fn],",,,,,,,,,,,,                            
+"        'epochs':[epochs],",,,,,,,,,,,,"                            results = model_results(i, opt,loss, activation, epochs, batch, "
+"        'batch_size':[batch_size],",,,,,,,,,,,,"                                                          neurons_in_hiddenlayer, neurons_in_inputlayer)"
+"        'num_hiddenlayer':[num_hiddenlayer],",,,,,,,,,,,,"                            results_df = results_df.append(results, ignore_index = True)"
+"        'neurons_in_hiddenlayer':[neurons_in_hiddenlayer],",,,,,,,,,,,,                            print(i)
+"        'neurons_in_inputlayer':[neurons_in_inputlayer],",,,,,,,,,,,,                            print(results)
+"        'num_dropout_layers':[num_dropout_layers],            ",,,,,,,,,,,,                            i+=1
+"        'loss':[score[0]],",,,,,,,,,,,,
+"        'mse_test':[score[1]],",,,,,,,,,,,,
+"        'mae_test':[score[2]],",,,,,,,,,,,,
+"        'mape_test':[score[3]],",,,,,,,,,,,,
+"        'cosine_similarity_test':[score[4]],",,,,,,,,,,,,
+"        'rmse_test':[score[5]],",,,,,,,,,,,,
+        'msle_test':[score[6]] ,,,,,,,,,,,,
+       },,,,,,,,,,,,
+,,,,,,,,,,,,
+    results_df = pd.DataFrame(dict),,,,,,,,,,,,
+"    #print (""After Training:"", list(zip(model.metrics_names, score)))",,,,,,,,,,,,
+    return(results_df),,,,,,,,,,,,
