@@ -1,0 +1,39 @@
+Shape of Data Frame msnn
+(864, 23)
+Index(['Unnamed: 0', 'model_num', 'optimizer', 'loss_fn', 'activation_fn',
+       'output_activation_fn', 'epochs', 'batch_size', 'neurons_in_inputlayer',
+       'num_hiddenlayer', 'neurons_in_hiddenlayer', 'num_dropout_layers',
+       'loss', 'mse_test', 'mae_test', 'mape_test', 'cosine_similarity_test',
+       'rmse_test', 'msle_test', 'validation_split', 'input_dimensions',
+       'corr', 'total_runtime'],
+      dtype='object')
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 864 entries, 0 to 863
+Data columns (total 23 columns):
+ #   Column                  Non-Null Count  Dtype  
+---  ------                  --------------  -----  
+ 0   Unnamed: 0              864 non-null    int64  
+ 1   model_num               864 non-null    float64
+ 2   optimizer               864 non-null    object 
+ 3   loss_fn                 864 non-null    object 
+ 4   activation_fn           864 non-null    object 
+ 5   output_activation_fn    864 non-null    object 
+ 6   epochs                  864 non-null    float64
+ 7   batch_size              864 non-null    float64
+ 8   neurons_in_inputlayer   864 non-null    float64
+ 9   num_hiddenlayer         864 non-null    float64
+ 10  neurons_in_hiddenlayer  864 non-null    float64
+ 11  num_dropout_layers      864 non-null    float64
+ 12  loss                    864 non-null    float64
+ 13  mse_test                864 non-null    float64
+ 14  mae_test                864 non-null    float64
+ 15  mape_test               864 non-null    float64
+ 16  cosine_similarity_test  864 non-null    float64
+ 17  rmse_test               864 non-null    float64
+ 18  msle_test               864 non-null    float64
+ 19  validation_split        864 non-null    float64
+ 20  input_dimensions        864 non-null    float64
+ 21  corr                    864 non-null    float64
+ 22  total_runtime           864 non-null    object 
+dtypes: float64(17), int64(1), object(5)
+memory usage: 155.4+ KB
