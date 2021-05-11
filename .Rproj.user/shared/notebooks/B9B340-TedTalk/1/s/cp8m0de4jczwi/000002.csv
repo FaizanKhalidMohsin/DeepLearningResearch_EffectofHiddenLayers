@@ -1,0 +1,5 @@
+"0","df_raw_p = pd.read_csv('ted_main.csv')
+"
+"2","Error in pd.read_csv(""ted_main.csv"") : 
+  could not find function ""pd.read_csv""
+"

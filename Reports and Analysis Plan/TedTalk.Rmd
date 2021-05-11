@@ -1,0 +1,109 @@
+---
+title: "TedTalk"
+author: "Faizan Khalid Mohsin"
+date: "February 9, 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r data}
+data_raw = read.csv("ted_main.csv")
+
+```
+
+
+
+```{r pressure}
+str(data_raw)
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+We will now do the project in python. We will also integrate SQL into it. 
+
+
+
+
+
+
+```{r, setup}
+library(reticulate)
+
+
+```
+
+
+
+```{r}
+py_install("pandas")
+```
+
+
+
+
+
+```{r}
+
+py_install(c("numpy", "scipy", "seaborn", "json", "wordcloud"))
+
+```
+
+
+```{python}
+import pandas as pd
+```
+
+
+```{python}
+
+# load python libraries
+#%matplotlib inline
+
+import pandas as pd
+import numpy as np
+from scipy import stats
+#import matplotlib.pyplot as plt
+import seaborn as sns
+import json
+#from pandas.io.json import json_normalize
+from wordcloud import WordCloud, STOPWORDS
+
+
+
+```
+
+
+
+```{r}
+# load the data  
+
+df_raw_p = pd.read_csv('ted_main.csv')
+
+# view the data
+
+# summarize the data
+
+
+```
+
+
+
+The variables to create. 
+
+
+```{python}
+
+# Start the data cleaning. 
+
+
+```
+
+
+
+

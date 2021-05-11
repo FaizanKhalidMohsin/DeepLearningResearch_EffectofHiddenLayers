@@ -1,0 +1,296 @@
+"0","py_install(""pandas"")"
+"2","No non-system installation of Python could be found.
+Would you like to download and install Miniconda?
+Miniconda is an open source environment management system for Python.
+See https://docs.conda.io/en/latest/miniconda.html for more details.
+
+"
+"0","Y"
+"2","* Downloading ""https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe"" ...
+"
+"2","trying URL 'https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe'
+"
+"2","Content type 'application/octet-stream'"
+"2"," length 59801432 bytes (57.0 MB)
+"
+"2","downloaded 57.0 MB
+
+"
+"2","* Installing Miniconda -- please wait a moment ...
+"
+"1","Collecting package metadata (current_repodata.json): ...working... done
+"
+"1","Solving environment: ...working... done
+"
+"1","
+"
+"1","## Package Plan ##
+"
+"1","
+"
+"1","  environment location: C:\Users\Faizan\AppData\Local\R-MINI~1
+"
+"1","
+"
+"1","  added / updated specs:
+"
+"1","    - conda
+"
+"1","
+"
+"1","
+"
+"1","The following packages will be downloaded:
+"
+"1","
+"
+"1","    package                    |            build
+"
+"1","    ---------------------------|-----------------
+"
+"1","    ca-certificates-2021.1.19  |       haa95532_1         119 KB
+"
+"1","    certifi-2020.12.5          |   py38haa95532_0         141 KB
+"
+"1","    cffi-1.14.5                |   py38hcd4344a_0         224 KB
+"
+"1","    chardet-4.0.0              |py38haa95532_1003         211 KB
+"
+"1","    cryptography-3.3.1         |   py38hcd4344a_1         542 KB
+"
+"1","    idna-2.10                  |     pyhd3eb1b0_0          52 KB
+"
+"1","    openssl-1.1.1j             |       h2bbff1b_0         4.8 MB
+"
+"1","    pip-21.0.1                 |   py38haa95532_0         1.8 MB
+"
+"1","    pyopenssl-20.0.1           |     pyhd3eb1b0_1          49 KB
+"
+"1","    requests-2.25.1            |     pyhd3eb1b0_0          52 KB
+"
+"1","    setuptools-52.0.0          |   py38haa95532_0         726 KB
+"
+"1","    tqdm-4.56.0                |     pyhd3eb1b0_0          80 KB
+"
+"1","    urllib3-1.26.3             |     pyhd3eb1b0_0         105 KB
+"
+"1","    vc-14.2                    |       h21ff451_1           8 KB
+"
+"1","    vs2015_runtime-14.27.29016 |       h5e58377_2        1007 KB
+"
+"1","    wheel-0.36.2               |     pyhd3eb1b0_0          33 KB
+"
+"1","    ------------------------------------------------------------
+"
+"1","                                           Total:         9.9 MB
+"
+"1","
+"
+"1","The following packages will be UPDATED:
+"
+"1","
+"
+"1","  ca-certificates                              2020.10.14-0 --> 2021.1.19-haa95532_1
+"
+"1","  certifi            pkgs/main/noarch::certifi-2020.6.20-p~ --> pkgs/main/win-64::certifi-2020.12.5-py38haa95532_0
+"
+"1","  cffi                                1.14.3-py38hcd4344a_2 --> 1.14.5-py38hcd4344a_0
+"
+"1","  chardet                           3.0.4-py38haa95532_1003 --> 4.0.0-py38haa95532_1003
+"
+"1","  cryptography                         3.2.1-py38hcd4344a_1 --> 3.3.1-py38hcd4344a_1
+"
+"1","  openssl                                 1.1.1h-he774522_0 --> 1.1.1j-h2bbff1b_0
+"
+"1","  pip                                 20.2.4-py38haa95532_0 --> 21.0.1-py38haa95532_0
+"
+"1","  pyopenssl                             19.1.0-pyhd3eb1b0_1 --> 20.0.1-pyhd3eb1b0_1
+"
+"1","  requests                                      2.24.0-py_0 --> 2.25.1-pyhd3eb1b0_0
+"
+"1","  setuptools                          50.3.1-py38haa95532_1 --> 52.0.0-py38haa95532_0
+"
+"1","  tqdm                                  4.51.0-pyhd3eb1b0_0 --> 4.56.0-pyhd3eb1b0_0
+"
+"1","  urllib3                                      1.25.11-py_0 --> 1.26.3-pyhd3eb1b0_0
+"
+"1","  vc                                        14.1-h0510ff6_4 --> 14.2-h21ff451_1
+"
+"1","  vs2015_runtime                     14.16.27012-hf0eaf9b_3 --> 14.27.29016-h5e58377_2
+"
+"1","  wheel                                 0.35.1-pyhd3eb1b0_0 --> 0.36.2-pyhd3eb1b0_0
+"
+"1","
+"
+"1","The following packages will be DOWNGRADED:
+"
+"1","
+"
+"1","  idna                                            2.10-py_0 --> 2.10-pyhd3eb1b0_0
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","Downloading and Extracting Packages
+"
+"1","openssl-1.1.1j       | 4.8 MB    |            |   0% openssl-1.1.1j       | 4.8 MB    |            |   0% openssl-1.1.1j       | 4.8 MB    |            |   1% openssl-1.1.1j       | 4.8 MB    | 1          |   1% openssl-1.1.1j       | 4.8 MB    | 1          |   2% openssl-1.1.1j       | 4.8 MB    | 2          |   3% openssl-1.1.1j       | 4.8 MB    | 3          |   4% openssl-1.1.1j       | 4.8 MB    | 4          |   4% openssl-1.1.1j       | 4.8 MB    | 4          |   5% openssl-1.1.1j       | 4.8 MB    | 5          |   6% openssl-1.1.1j       | 4.8 MB    | 6          |   6% openssl-1.1.1j       | 4.8 MB    | 7          |   7% openssl-1.1.1j       | 4.8 MB    | 8          |   8% openssl-1.1.1j       | 4.8 MB    | 9          |   9% openssl-1.1.1j       | 4.8 MB    | 9          |  10% openssl-1.1.1j       | 4.8 MB    | #          |  10% openssl-1.1.1j       | 4.8 MB    | #5         |  15% openssl-1.1.1j       | 4.8 MB    | #6         |  17% openssl-1.1.1j       | 4.8 MB    | #7         |  17% openssl-1.1.1j       | 4.8 MB    | #8         |  19% openssl-1.1.1j       | 4.8 MB    | #9         |  20% openssl-1.1.1j       | 4.8 MB    | ##         |  21% openssl-1.1.1j       | 4.8 MB    | ##1        |  22% openssl-1.1.1j       | 4.8 MB    | ##2        |  23% openssl-1.1.1j       | 4.8 MB    | ##3        |  24% openssl-1.1.1j       | 4.8 MB    | ##4        |  25% openssl-1.1.1j       | 4.8 MB    | ##6        |  26% openssl-1.1.1j       | 4.8 MB    | ##7        |  27% openssl-1.1.1j       | 4.8 MB    | ##8        |  28% openssl-1.1.1j       | 4.8 MB    | ##9        |  29% openssl-1.1.1j       | 4.8 MB    | ###        |  30% openssl-1.1.1j       | 4.8 MB    | ###1       |  31% openssl-1.1.1j       | 4.8 MB    | ###2       |  32% openssl-1.1.1j       | 4.8 MB    | ###2       |  33% openssl-1.1.1j       | 4.8 MB    | ###3       |  33% openssl-1.1.1j       | 4.8 MB    | ###6       |  37% openssl-1.1.1j       | 4.8 MB    | ###7       |  38% openssl-1.1.1j       | 4.8 MB    | ###8       |  39% openssl-1.1.1j       | 4.8 MB    | ###9       |  39% openssl-1.1.1j       | 4.8 MB    | ####       |  40% openssl-1.1.1j       | 4.8 MB    | ####1      |  41% openssl-1.1.1j       | 4.8 MB    | ####1      |  42% openssl-1.1.1j       | 4.8 MB    | ####2      |  42% openssl-1.1.1j       | 4.8 MB    | ####3      |  43% openssl-1.1.1j       | 4.8 MB    | ####3      |  44% openssl-1.1.1j       | 4.8 MB    | ####4      |  44% openssl-1.1.1j       | 4.8 MB    | ####5      |  45% openssl-1.1.1j       | 4.8 MB    | ####6      |  46% openssl-1.1.1j       | 4.8 MB    | ####6      |  47% openssl-1.1.1j       | 4.8 MB    | ####7      |  47% openssl-1.1.1j       | 4.8 MB    | ####8      |  48% openssl-1.1.1j       | 4.8 MB    | ####8      |  49% openssl-1.1.1j       | 4.8 MB    | ####9      |  50% openssl-1.1.1j       | 4.8 MB    | #####      |  51% openssl-1.1.1j       | 4.8 MB    | #####1     |  51% openssl-1.1.1j       | 4.8 MB    | #####1     |  52% openssl-1.1.1j       | 4.8 MB    | #####2     |  53% openssl-1.1.1j       | 4.8 MB    | #####3     |  54% openssl-1.1.1j       | 4.8 MB    | #####4     |  55% openssl-1.1.1j       | 4.8 MB    | #####5     |  56% openssl-1.1.1j       | 4.8 MB    | #####7     |  57% openssl-1.1.1j       | 4.8 MB    | #####8     |  58% openssl-1.1.1j       | 4.8 MB    | #####8     |  59% openssl-1.1.1j       | 4.8 MB    | #####9     |  60% openssl-1.1.1j       | 4.8 MB    | ######     |  61% openssl-1.1.1j       | 4.8 MB    | ######1    |  62% openssl-1.1.1j       | 4.8 MB    | ######2    |  63% openssl-1.1.1j       | 4.8 MB    | ######3    |  64% openssl-1.1.1j       | 4.8 MB    | ######4    |  65% openssl-1.1.1j       | 4.8 MB    | ######5    |  66% openssl-1.1.1j       | 4.8 MB    | ######6    |  66% openssl-1.1.1j       | 4.8 MB    | ######7    |  67% openssl-1.1.1j       | 4.8 MB    | ######8    |  68% openssl-1.1.1j       | 4.8 MB    | ######9    |  69% openssl-1.1.1j       | 4.8 MB    | #######    |  70% openssl-1.1.1j       | 4.8 MB    | #######1   |  71% openssl-1.1.1j       | 4.8 MB    | #######2   |  72% openssl-1.1.1j       | 4.8 MB    | #######3   |  73% openssl-1.1.1j       | 4.8 MB    | #######4   |  75% openssl-1.1.1j       | 4.8 MB    | #######5   |  76% openssl-1.1.1j       | 4.8 MB    | #######6   |  76% openssl-1.1.1j       | 4.8 MB    | #######7   |  77% openssl-1.1.1j       | 4.8 MB    | #######8   |  78% openssl-1.1.1j       | 4.8 MB    | #######9   |  79% openssl-1.1.1j       | 4.8 MB    | ########   |  81% openssl-1.1.1j       | 4.8 MB    | ########1  |  82% openssl-1.1.1j       | 4.8 MB    | ########2  |  83% openssl-1.1.1j       | 4.8 MB    | ########3  |  84% openssl-1.1.1j       | 4.8 MB    | ########4  |  85% openssl-1.1.1j       | 4.8 MB    | ########5  |  86% openssl-1.1.1j       | 4.8 MB    | ########6  |  87% openssl-1.1.1j       | 4.8 MB    | ########7  |  88% openssl-1.1.1j       | 4.8 MB    | ########8  |  89% openssl-1.1.1j       | 4.8 MB    | ########9  |  90% openssl-1.1.1j       | 4.8 MB    | #########  |  91% openssl-1.1.1j       | 4.8 MB    | #########1 |  92% openssl-1.1.1j       | 4.8 MB    | #########2 |  93% openssl-1.1.1j       | 4.8 MB    | #########3 |  94% openssl-1.1.1j       | 4.8 MB    | #########4 |  95% openssl-1.1.1j       | 4.8 MB    | #########5 |  96% openssl-1.1.1j       | 4.8 MB    | #########9 | 100% openssl-1.1.1j       | 4.8 MB    | ########## | 100% 
+"
+"1","setuptools-52.0.0    | 726 KB    |            |   0% setuptools-52.0.0    | 726 KB    | 2          |   2% setuptools-52.0.0    | 726 KB    | 4          |   4% setuptools-52.0.0    | 726 KB    | ##2        |  22% setuptools-52.0.0    | 726 KB    | #####      |  51% setuptools-52.0.0    | 726 KB    | ######1    |  62% setuptools-52.0.0    | 726 KB    | #######    |  71% setuptools-52.0.0    | 726 KB    | #######9   |  79% setuptools-52.0.0    | 726 KB    | ########8  |  88% setuptools-52.0.0    | 726 KB    | #########7 |  97% setuptools-52.0.0    | 726 KB    | ########## | 100% 
+"
+"1","idna-2.10            | 52 KB     |            |   0% idna-2.10            | 52 KB     | ###        |  31% idna-2.10            | 52 KB     | #########2 |  92% idna-2.10            | 52 KB     | ########## | 100% 
+"
+"1","cryptography-3.3.1   | 542 KB    |            |   0% cryptography-3.3.1   | 542 KB    | 2          |   3% cryptography-3.3.1   | 542 KB    | #1         |  12% cryptography-3.3.1   | 542 KB    | ##         |  21% cryptography-3.3.1   | 542 KB    | ##6        |  27% cryptography-3.3.1   | 542 KB    | ###8       |  38% cryptography-3.3.1   | 542 KB    | #####      |  50% cryptography-3.3.1   | 542 KB    | ######1    |  62% cryptography-3.3.1   | 542 KB    | #######    |  71% cryptography-3.3.1   | 542 KB    | #######9   |  80% cryptography-3.3.1   | 542 KB    | #########1 |  91% cryptography-3.3.1   | 542 KB    | ########## | 100% cryptography-3.3.1   | 542 KB    | ########## | 100% 
+"
+"1","tqdm-4.56.0          | 80 KB     |            |   0% tqdm-4.56.0          | 80 KB     | ##         |  20% tqdm-4.56.0          | 80 KB     | ##         |  20% 
+"
+"1","vc-14.2              | 8 KB      |            |   0% vc-14.2              | 8 KB      | ########## | 100% vc-14.2              | 8 KB      | ########## | 100% 
+"
+"1","vs2015_runtime-14.27 | 1007 KB   |            |   0% vs2015_runtime-14.27 | 1007 KB   | 1          |   2% vs2015_runtime-14.27 | 1007 KB   | 4          |   5% vs2015_runtime-14.27 | 1007 KB   | 9          |  10% vs2015_runtime-14.27 | 1007 KB   | #2         |  13% vs2015_runtime-14.27 | 1007 KB   | #7         |  17% vs2015_runtime-14.27 | 1007 KB   | ##         |  21% vs2015_runtime-14.27 | 1007 KB   | ##3        |  24% vs2015_runtime-14.27 | 1007 KB   | ###1       |  32% vs2015_runtime-14.27 | 1007 KB   | ###9       |  40% vs2015_runtime-14.27 | 1007 KB   | ####4      |  44% vs2015_runtime-14.27 | 1007 KB   | ####7      |  48% vs2015_runtime-14.27 | 1007 KB   | #####      |  51% vs2015_runtime-14.27 | 1007 KB   | #####5     |  56% vs2015_runtime-14.27 | 1007 KB   | ######     |  60% vs2015_runtime-14.27 | 1007 KB   | ######3    |  64% vs2015_runtime-14.27 | 1007 KB   | ######8    |  68% vs2015_runtime-14.27 | 1007 KB   | #######3   |  73% vs2015_runtime-14.27 | 1007 KB   | #######7   |  78% vs2015_runtime-14.27 | 1007 KB   | ########2  |  83% vs2015_runtime-14.27 | 1007 KB   | ########5  |  86% vs2015_runtime-14.27 | 1007 KB   | ########8  |  89% vs2015_runtime-14.27 | 1007 KB   | #########2 |  92% vs2015_runtime-14.27 | 1007 KB   | #########5 |  95% vs2015_runtime-14.27 | 1007 KB   | #########8 |  99% vs2015_runtime-14.27 | 1007 KB   | ########## | 100% 
+"
+"1","ca-certificates-2021 | 119 KB    |            |   0% ca-certificates-2021 | 119 KB    | #3         |  13% ca-certificates-2021 | 119 KB    | ######7    |  67% ca-certificates-2021 | 119 KB    | ########## | 100% ca-certificates-2021 | 119 KB    | ########## | 100% 
+"
+"1","urllib3-1.26.3       | 105 KB    |            |   0% urllib3-1.26.3       | 105 KB    | #5         |  15% urllib3-1.26.3       | 105 KB    | ######     |  61% urllib3-1.26.3       | 105 KB    | #######6   |  76% urllib3-1.26.3       | 105 KB    | ########## | 100% urllib3-1.26.3       | 105 KB    | ########## | 100% 
+"
+"1","requests-2.25.1      | 52 KB     |            |   0% requests-2.25.1      | 52 KB     | ###        |  31% requests-2.25.1      | 52 KB     | ########## | 100% requests-2.25.1      | 52 KB     | ########## | 100% 
+"
+"1","wheel-0.36.2         | 33 KB     |            |   0% wheel-0.36.2         | 33 KB     | ####9      |  49% wheel-0.36.2         | 33 KB     | ########## | 100% wheel-0.36.2         | 33 KB     | ########## | 100% 
+"
+"1","chardet-4.0.0        | 211 KB    |            |   0% chardet-4.0.0        | 211 KB    | 7          |   8% chardet-4.0.0        | 211 KB    | ###        |  30% chardet-4.0.0        | 211 KB    | ####5      |  46% chardet-4.0.0        | 211 KB    | ######     |  61% chardet-4.0.0        | 211 KB    | ########3  |  84% chardet-4.0.0        | 211 KB    | #########8 |  99% chardet-4.0.0        | 211 KB    | ########## | 100% 
+"
+"1","certifi-2020.12.5    | 141 KB    |            |   0% certifi-2020.12.5    | 141 KB    | #1         |  11% certifi-2020.12.5    | 141 KB    | ####5      |  45% certifi-2020.12.5    | 141 KB    | #########  |  91% certifi-2020.12.5    | 141 KB    | ########## | 100% 
+"
+"1","pyopenssl-20.0.1     | 49 KB     |            |   0% pyopenssl-20.0.1     | 49 KB     | ###2       |  33% pyopenssl-20.0.1     | 49 KB     | ########## | 100% pyopenssl-20.0.1     | 49 KB     | ########## | 100% 
+"
+"1","pip-21.0.1           | 1.8 MB    |            |   0% pip-21.0.1           | 1.8 MB    |            |   1% pip-21.0.1           | 1.8 MB    | 2          |   3% pip-21.0.1           | 1.8 MB    | 4          |   4% pip-21.0.1           | 1.8 MB    | 6          |   6% pip-21.0.1           | 1.8 MB    | 7          |   8% pip-21.0.1           | 1.8 MB    | 9          |   9% pip-21.0.1           | 1.8 MB    | #          |  10% pip-21.0.1           | 1.8 MB    | #2         |  12% pip-21.0.1           | 1.8 MB    | #4         |  15% pip-21.0.1           | 1.8 MB    | #6         |  16% pip-21.0.1           | 1.8 MB    | #8         |  18% pip-21.0.1           | 1.8 MB    | #8         |  19% pip-21.0.1           | 1.8 MB    | ##1        |  22% pip-21.0.1           | 1.8 MB    | ##3        |  23% pip-21.0.1           | 1.8 MB    | ##4        |  25% pip-21.0.1           | 1.8 MB    | ##6        |  27% pip-21.0.1           | 1.8 MB    | ##8        |  28% pip-21.0.1           | 1.8 MB    | ###        |  30% pip-21.0.1           | 1.8 MB    | ###4       |  34% pip-21.0.1           | 1.8 MB    | ###7       |  37% pip-21.0.1           | 1.8 MB    | ###8       |  39% pip-21.0.1           | 1.8 MB    | ####       |  40% pip-21.0.1           | 1.8 MB    | ####2      |  42% pip-21.0.1           | 1.8 MB    | ####3      |  44% pip-21.0.1           | 1.8 MB    | ####5      |  46% pip-21.0.1           | 1.8 MB    | ####7      |  47% pip-21.0.1           | 1.8 MB    | ####9      |  49% pip-21.0.1           | 1.8 MB    | #####      |  51% pip-21.0.1           | 1.8 MB    | #####5     |  56% pip-21.0.1           | 1.8 MB    | #####8     |  59% pip-21.0.1           | 1.8 MB    | ######     |  60% pip-21.0.1           | 1.8 MB    | ######1    |  62% pip-21.0.1           | 1.8 MB    | ######3    |  64% pip-21.0.1           | 1.8 MB    | ######6    |  66% pip-21.0.1           | 1.8 MB    | ######8    |  68% pip-21.0.1           | 1.8 MB    | ######9    |  70% pip-21.0.1           | 1.8 MB    | #######1   |  71% pip-21.0.1           | 1.8 MB    | #######3   |  73% pip-21.0.1           | 1.8 MB    | #######7   |  77% pip-21.0.1           | 1.8 MB    | ########5  |  85% pip-21.0.1           | 1.8 MB    | ########8  |  89% pip-21.0.1           | 1.8 MB    | #########2 |  92% pip-21.0.1           | 1.8 MB    | #########4 |  95% pip-21.0.1           | 1.8 MB    | #########7 |  97% pip-21.0.1           | 1.8 MB    | #########9 |  99% pip-21.0.1           | 1.8 MB    | ########## | 100% 
+"
+"1","cffi-1.14.5          | 224 KB    |            |   0% cffi-1.14.5          | 224 KB    | 7          |   7% cffi-1.14.5          | 224 KB    | #4         |  14% cffi-1.14.5          | 224 KB    | ###5       |  36% cffi-1.14.5          | 224 KB    | #######1   |  71% cffi-1.14.5          | 224 KB    | ########## | 100% cffi-1.14.5          | 224 KB    | ########## | 100% 
+"
+"1","CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/noarch/tqdm-4.56.0-pyhd3eb1b0_0.conda>
+"
+"1","Elapsed: -
+"
+"1","
+"
+"1","An HTTP error occurred when trying to retrieve this URL.
+"
+"1","HTTP errors are often intermittent, and a simple retry will get you on your way.
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","Collecting package metadata (current_repodata.json): ...working... done
+"
+"1","Solving environment: ...working... done
+"
+"1","
+"
+"1","## Package Plan ##
+"
+"1","
+"
+"1","  environment location: C:\Users\Faizan\AppData\Local\R-MINI~1\envs\r-reticulate
+"
+"1","
+"
+"1","  added / updated specs:
+"
+"1","    - numpy
+"
+"1","    - python=3.6
+"
+"1","
+"
+"1","
+"
+"1","The following packages will be downloaded:
+"
+"1","
+"
+"1","    package                    |            build
+"
+"1","    ---------------------------|-----------------
+"
+"1","    certifi-2020.12.5          |   py36ha15d459_1         144 KB  conda-forge
+"
+"1","    intel-openmp-2020.3        |     h57928b3_311         2.0 MB  conda-forge
+"
+"1","    libblas-3.9.0              |            8_mkl         3.9 MB  conda-forge
+"
+"1","    libcblas-3.9.0             |            8_mkl         3.9 MB  conda-forge
+"
+"1","    liblapack-3.9.0            |            8_mkl         3.9 MB  conda-forge
+"
+"1","    mkl-2020.4                 |     hb70f87d_311       172.4 MB  conda-forge
+"
+"1","    numpy-1.19.5               |   py36hd1b969e_1         4.9 MB  conda-forge
+"
+"1","    pip-21.0.1                 |     pyhd8ed1ab_0         1.1 MB  conda-forge
+"
+"1","    python-3.6.13              |h39d44d4_0_cpython        19.0 MB  conda-forge
+"
+"1","    python_abi-3.6             |          1_cp36m           4 KB  conda-forge
+"
+"1","    setuptools-49.6.0          |   py36ha15d459_3         921 KB  conda-forge
+"
+"1","    vc-14.2                    |       hb210afc_4          13 KB  conda-forge
+"
+"1","    vs2015_runtime-14.28.29325 |       h5e1d092_4         2.3 MB  conda-forge
+"
+"1","    wheel-0.36.2               |     pyhd3deb0d_0          31 KB  conda-forge
+"
+"1","    wincertstore-0.2           |py36ha15d459_1006          15 KB  conda-forge
+"
+"1","    ------------------------------------------------------------
+"
+"1","                                           Total:       214.3 MB
+"
+"1","
+"
+"1","The following NEW packages will be INSTALLED:
+"
+"1","
+"
+"1","  certifi            conda-forge/win-64::certifi-2020.12.5-py36ha15d459_1
+"
+"1","  intel-openmp       conda-forge/win-64::intel-openmp-2020.3-h57928b3_311
+"
+"1","  libblas            conda-forge/win-64::libblas-3.9.0-8_mkl
+"
+"1","  libcblas           conda-forge/win-64::libcblas-3.9.0-8_mkl
+"
+"1","  liblapack          conda-forge/win-64::liblapack-3.9.0-8_mkl
+"
+"1","  mkl                conda-forge/win-64::mkl-2020.4-hb70f87d_311
+"
+"1","  numpy              conda-forge/win-64::numpy-1.19.5-py36hd1b969e_1
+"
+"1","  pip                conda-forge/noarch::pip-21.0.1-pyhd8ed1ab_0
+"
+"1","  python             conda-forge/win-64::python-3.6.13-h39d44d4_0_cpython
+"
+"1","  python_abi         conda-forge/win-64::python_abi-3.6-1_cp36m
+"
+"1","  setuptools         conda-forge/win-64::setuptools-49.6.0-py36ha15d459_3
+"
+"1","  vc                 conda-forge/win-64::vc-14.2-hb210afc_4
+"
+"1","  vs2015_runtime     conda-forge/win-64::vs2015_runtime-14.28.29325-h5e1d092_4
+"
+"1","  wheel              conda-forge/noarch::wheel-0.36.2-pyhd3deb0d_0
+"
+"1","  wincertstore       conda-forge/win-64::wincertstore-0.2-py36ha15d459_1006
+"
+"1","
+"
+"1","
+"
+"1","
+"
+"1","Downloading and Extracting Packages
+"
